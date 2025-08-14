@@ -1,6 +1,6 @@
 from ninja import Schema
 
-Class BarkSchemaOut(Schema):
-    """Schema for Bark response."""
+class BarkSchemaOut(Schema):
+    """Schema for bark responses"""
     id: int
     message: str
